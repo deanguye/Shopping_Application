@@ -1,16 +1,16 @@
 This project was inspired by the Shopping Cart Application completed in past courses at Boston University.
 
 Steps to running this program:
-Prior Programs need to be ready: XAAMP, MYSQL
 
-XAAMP Link: https://www.apachefriends.org/index.html
+Have XAAMP installed using this link: https://www.apachefriends.org/index.html
 
 1) Have XAAMP running on Apache and MySQL Module
-2) Type http://localhost/phpmyadmin/index.php
-3) Make sure to enter the credentials listed as database.php
-4) Import items.sql into your database.
-5) For xaamp, make sure to put in htdocs.
-6) To begin, run apache and mysql at the same time in xaamp. Then import items.sql to database.
+2) Click on the zip link downloaded from here on github and put in the "XAAMP\htdocs" path.
+3) Type http://localhost/phpmyadmin/index.php
+4) Make sure to enter the credentials listed as database.php.
+5) Import items.sql into your database.
+6) 
+7) To begin, run apache and mysql at the same time in xaamp. Then import items.sql to database.
 
 
 Beginning page
