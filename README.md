@@ -1,4 +1,4 @@
-This project was inspired by the Shopping Cart Application completed in past courses at Boston University.
+This project was inspired by the Shopping Cart Application completed in past courses at Boston University. The focus is on the server-side capabilities such as RESTful services/ Database connectivity.
 
 Steps to running this program:
 
