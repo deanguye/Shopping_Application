@@ -1,17 +1,20 @@
-READ ME 
-
-This project was inspired by the Shopping Cart Application 
+This project was inspired by the Shopping Cart Application completed in past courses at Boston University.
 
 Steps to running this program:
-1) Prior Programs need to be ready: XAAMP, MYSQL
-2) Make sure to enter the credentials listed as database.php
-3) Import items.sql into your database.
-4) For xaamp, make sure to put in htdocs.
-5) To begin, run apache and mysql at the same time in xaamp. Then import items.sql to database.
+Prior Programs need to be ready: XAAMP, MYSQL
+
+XAAMP Link: https://www.apachefriends.org/index.html
+
+1) Have XAAMP running on Apache and MySQL Module
+2) Type http://localhost/phpmyadmin/index.php
+3) Make sure to enter the credentials listed as database.php
+4) Import items.sql into your database.
+5) For xaamp, make sure to put in htdocs.
+6) To begin, run apache and mysql at the same time in xaamp. Then import items.sql to database.
 
 
 Beginning page
-1) To access page, type http://localhost/CS602_Project_Nguyen/
+1) To access page, type http://localhost/CS602_shopping_application/
 2)You will be redirected to the administration page:
 3) Password for both, administrator and customer is "password". No quotes, capitalizations or anything.
 4) Click submit to enter either view.
