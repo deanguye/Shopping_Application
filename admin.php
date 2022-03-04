@@ -28,7 +28,7 @@ $id_statement->closeCursor();
 
 // Get All courses
 $query_items = 'SELECT * FROM items
-                      ORDER BY ID LIMIT 5';
+                      ORDER BY ID';
 $all_statement = $db->prepare($query_items);
 $all_statement->execute();
 $all_items = $all_statement->fetchAll();
