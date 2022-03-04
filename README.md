@@ -1,4 +1,6 @@
-READ ME - Idea for shopping cart was from Murach Guitar example and more.
+READ ME 
+
+This project was inspired by the Shopping Cart Application 
 
 Steps to running this program:
 1) Prior Programs need to be ready: XAAMP, MYSQL
