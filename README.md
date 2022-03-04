@@ -4,17 +4,16 @@ Steps to running this program:
 
 Have XAAMP installed using this link: https://www.apachefriends.org/index.html
 
-1) Have XAAMP running on Apache and MySQL Module
-2) Click on the zip link downloaded from here on github and put in the "XAAMP\htdocs" path.
+1) Download the Zip File and insert the folder containing the contents into the  "XAAMP\htdocs" path.
+2) Have XAAMP running on Apache and MySQL Module by clicking "start".
 3) Type http://localhost/phpmyadmin/index.php
 4) Make sure to enter the credentials listed as database.php.
 5) Import items.sql into your database.
-6) 
-7) To begin, run apache and mysql at the same time in xaamp. Then import items.sql to database.
+
 
 
 Beginning page
-1) To access page, type http://localhost/CS602_shopping_application/
+1) To access page, type http://localhost/shopping_application/
 2)You will be redirected to the administration page:
 3) Password for both, administrator and customer is "password". No quotes, capitalizations or anything.
 4) Click submit to enter either view.
@@ -38,18 +37,6 @@ Otherwise, we are stick to one customer view at a time for demonstration purpose
 the final order until they click "checkout". This is because I was unable to write the code to have a display message to check the database before display.
 4) When clicking checkout, all orders will be displayed. If a product has been deleted prior(can only be done on administrative level), it will be reflected in the order as well and removed promptly.
 
-Access REST PHP
-1) For items, use the following links
-  a) http://localhost/CS602_Project_Nguyen/rest.php?format=json&items
-  b) http://localhost/CS602_Project_Nguyen/rest.php?format=xml&items
-
-2) For Products with Specified range
-   a)http://localhost/CS602_Project_Nguyen/rest.php?format=xml&PriceRange=1.00-2.00
-   b) http://localhost/CS602_Project_Nguyen/rest.php?format=json&PriceRange=1.00-2.00
-
-3) For Product Name 
-   a) http://localhost/CS602_Project_Nguyen/rest.php?format=json&ProductName=napkins
-   b) http://localhost/CS602_Project_Nguyen/rest.php?format=xml&ProductName=napkins
 
 
 
