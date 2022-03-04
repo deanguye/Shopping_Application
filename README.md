@@ -7,8 +7,9 @@ Have XAAMP installed using this link: https://www.apachefriends.org/index.html
 1) Download the Zip File and insert the folder containing the contents into the  "XAAMP\htdocs" path.
 2) Have XAAMP running on Apache and MySQL Module by clicking "start".
 3) Type http://localhost/phpmyadmin/index.php
-4) Make sure to enter the credentials listed as database.php.
-5) Import items.sql into your database.
+4) Click on "Databases" and create a new database matching the credentials in database.php. The name should be "test" and click "create".
+5) Make sure to enter the credentials listed as database.php.
+6) Import items.sql into your database.
 
 
 
